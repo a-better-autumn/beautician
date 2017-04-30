@@ -26,10 +26,11 @@ body {
   margin-bottom: 0;
 }
 nav {
-  .navbar-brand {font-size: 30px;}
+  .navbar-brand {font-size: 22px;
+ }
 	.navbar-toggle {margin: 13px 15px 13px 0;}
 	a {
-		font-size: 18px;
+		font-size: 17px;
 		padding-bottom: 20px !important;//去掉上面的白边
 		padding-top: 20px !important;//去掉上面的白边
     transition: all 0.3s ease;
@@ -38,7 +39,7 @@ nav {
 
 nav.navbar.shrink {
 	min-height: 35px;
-  .navbar-brand {font-size: 25px;}
+  .navbar-brand {font-size: 18px;}
   a {
     font-size: 15px;
     padding-bottom: 10px !important;
